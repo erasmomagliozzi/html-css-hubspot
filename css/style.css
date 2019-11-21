@@ -15,12 +15,11 @@ header {
 }
 .top-header {
   height: 140px;
-  background-color: yellow;
-}
+  }
 .up-top-header {
   height: 70px;
-  background-color: red;
-}
+  background-color: white;
+  }
 .down-top-header {
   height: 50%;
   background-color: lightblue;
@@ -28,32 +27,70 @@ header {
 .left-up-top-header {
   width: 50%;
   line-height: 70px;
-  
+  height: 70px;
+  float: left;
+
+}
+.right-up-top-header {
+  width: 50%;
+  line-height: 70px;
   height: 70px;
 
-  /* float: left; */
 }
-.left-up-top-header li {
+.up-top-header li {
   list-style: none;
   display: inline-block;
-  padding-right: 40px;
+  padding-right: 20px;
+}
+.left-up-top-header {
+  color:rgb(24, 51, 150);
 }
 .left-up-top-header i {
   padding-right: 10px;
 }
-.left-up-top-header li a {
+.up-top-header ul li a {
   text-decoration: none;
-  color:rgb(24, 51, 150);
+  /* color:rgb(24, 51, 150); */
 }
-.left-up-top-header ul li:first-child {
-  border-right: 2px solid grey;
-  border-right-style: inset;
+
+.left-up-top-header ul li a:first-child {
+  display: inline-block;
+  border-left: 2px solid grey;
+  line-height: 30px;
+  padding-left: 15px;
+}
+.right-up-top-header {
+  float: right;
+  text-align: right;
+}
+.right-up-top-header {
+
+}
+a.login {
+  color: pink;
+border: 2px solid pink;
+padding: 10px;
+border-radius: 5px;
+}
+a.get-hub-spotfree {
+  color: white;
+  background-color: pink;
+  border: 2px solid pink;
+  padding: 10px;
+  border-radius: 5px;
+}
+.fas {
+  color: skyblue;
+}
 
 
-  }
-.left-up-top-header ul li:last-child {
-  padding-left: 10px;
+
+.top-header:after {
+  content: "";
+  display: table;
+  clear: both;
 }
+
 /* .left-up-top-header::after {
   content: "";
   display: table;
