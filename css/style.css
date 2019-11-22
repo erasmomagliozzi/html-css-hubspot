@@ -8,10 +8,10 @@ body {
 }
 header {
   width: 100%;
-  height: 2500px;
+  height: 1500px;
   margin: auto;
   background-image: url(../img/jumbotron.png);
-   background-size: cover;
+   background-size:cover ;
    background-repeat: no-repeat;
    background-position:  100% 80%;
 }
@@ -170,19 +170,97 @@ a.get-hub-spotfree {
   height: 4000px;
 }
 .primo-quadrante {
-  height:1000px;
+  height:600px;
   background-color: yellow;
   width: 100%;
   text-align: center;
 }
 .cubo {
-  width: 700px;
+  width: 500px;
 }
 .powerful {
   font-size: 50px;
-  padding: 15px;
+  padding: 20px;
   color: rgb(45, 62, 80);
 }
 .description {
+  font-size: 30px;
+}
+.secondo-quadrante {
+  height:600px;
+  width: 100%;
+  text-align: center;
+  }
+.secondo-quadrante .parte-sinistra {
+  height:500px;
+  width: 20%;
+  float: left;
+  margin-left: 50px;
+}
+.secondo-quadrante .parte-sinistra::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.secondo-quadrante .parte-destra {
+  height:500px;
+  width: 65%;
+  float: right;
+  text-align: left;
+}
+.crm {
+  width: 300px;
+}
+.crm::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+a.get-hub-spotfree.learn-more {
+  font-size: 30px;
+  padding: 20px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.free {
+  margin: 50px 0;
   font-size: 50px;
+  color: rgb(45, 62, 80);
+}
+#description-crm {
+  font-size: 25px;
+  color: rgb(45, 62, 80);
+}
+.allineamento {
+  vertical-align: middle;
+  position: relative;
+}
+#popular {
+  margin: 50px 0;
+  font-size: 30px;
+  color: rgb(45, 62, 80);
+  display: inline-block;
+}
+.hr-parte-destra {
+  height: 5px;
+  width: 50%;
+  position: absolute;
+  top:50%;
+  left :50%;
+  transform: translate(-20%, -50%);
+}
+.check-circle li{
+  color: rgb(45, 62, 80);
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 25px;
+}
+.fas.fa-check-circle {
+  padding-right: 10px;
+  color: #ff7a59;
+}
+.terzo-quadrante {
+  background-color: green;
+  
+
 }
