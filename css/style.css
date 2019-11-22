@@ -163,15 +163,15 @@ a.get-hub-spotfree {
   font-size: 20px;
   line-height: 20px;
 }
+/* INIZIO MAIN */
 .top-main {
-  background-color: blue;
+  /* background-color: blue; */
   width: 50%;
   margin: auto;
   height: 4000px;
 }
 .primo-quadrante {
   height:600px;
-  background-color: yellow;
   width: 100%;
   text-align: center;
 }
@@ -187,7 +187,7 @@ a.get-hub-spotfree {
   font-size: 30px;
 }
 .secondo-quadrante {
-  height:600px;
+  height:500px;
   width: 100%;
   text-align: center;
   }
@@ -227,7 +227,7 @@ a.get-hub-spotfree.learn-more {
   font-size: 50px;
   color: rgb(45, 62, 80);
 }
-#description-crm {
+.description {
   font-size: 25px;
   color: rgb(45, 62, 80);
 }
@@ -235,7 +235,7 @@ a.get-hub-spotfree.learn-more {
   vertical-align: middle;
   position: relative;
 }
-#popular {
+.popular {
   margin: 50px 0;
   font-size: 30px;
   color: rgb(45, 62, 80);
@@ -261,6 +261,64 @@ a.get-hub-spotfree.learn-more {
 }
 .terzo-quadrante {
   background-color: green;
-  
+  width: 100%;
+  /* height: 1000px; */
+
+}
+.photo {
+  float: left;
+}
+.photo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-left{
+  width: 28%;
+  text-align: center;
+  background-color: yellow;
+}
+.img-marketing {
+  width: 300px;
+}
+.col-center{
+  background-color: green;
+margin: 0 8%;
+width: 28%;
+text-align: center;
+line-height: 33px;
+}
+.col-right{
+background-color: grey;
+width: 28%;
+height: 500px;
+text-align: center;
+}
+.terzo-quadrante hr {
+  width: 80%;
+  margin: 20% auto 0;
+}
+.col-left.popular {
+  margin-top: 20px 0;
+}
+.lista-col-left {
+  text-align: left;
+  position: relative;
+  }
+.popular-list{
+  font-size: 30px;
+  color:rgb(45, 62, 80);
+}
+.popular-list.fas.fa-check-circle{
+  padding: 10px;
+}
+.lista-col-left a.get-hub-spotfree {
+position: absolute;
+top: 100%;
+left:50%;
+transform: translate(-50%,0);
+}
+.img-saleshub {
+  width: 300px;
 
 }
