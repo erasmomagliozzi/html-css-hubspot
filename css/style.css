@@ -150,6 +150,7 @@ a.get-hub-spotfree {
   }
 
 .testo-principale p {
+  color: rgb(45, 62, 80);
   margin: 30px 0;
   line-height: 35px;
   font-size: 25px;
@@ -165,12 +166,10 @@ a.get-hub-spotfree {
 }
 /* INIZIO MAIN */
 .top-main {
-  /* background-color: blue; */
   width: 50%;
   margin: auto;
 }
 .primo-quadrante {
-  height:600px;
   width: 100%;
   text-align: center;
 }
@@ -202,7 +201,6 @@ a.get-hub-spotfree {
   clear: both;
 }
 .secondo-quadrante .parte-destra {
-  height:500px;
   width: 65%;
   float: right;
   text-align: left;
@@ -291,7 +289,6 @@ height: 1000px;
 text-align: center;
 }
 .terzo-quadrante hr {
-  color: black;
   width: 80%;
   margin: 100px auto 0;
 }
@@ -319,7 +316,178 @@ transform: translate(-50%,0);
   width: 300px;
 }
 .quarto-quadrante {
+  margin: 50px 0;
   width: 100%;
+  height: 1200px;
+  background-color: #00B4AD;
+  position: relative;
+}
+.testo-quarto-quadrante {
+  margin: 100px auto;
+  width: 40%;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 15%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+}
+.table {
+  margin: 100px 0;
+}
+h2 {
+  font-size: 50px;
+  color: white;
+}
+p {
+  color: white;
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 30px;
+}
+table {
   height: 500px;
-  background-color: skyblue;
+  width: 45%;
+  margin:auto;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+td {
+  width: 25%;
+  text-align: center;
+}
+
+.far.fa-handshake {
+  font-size: 70px;
+  margin-bottom: 7px;
+}
+.plus {
+ font-size: 30px;
+}
+.hubspot-blog {
+  width: 115px;
+  margin-bottom: 15px;
+}
+.hubspot-academy {
+  width: 200px;
+  margin-bottom: 15px;
+}
+.inbound,
+.hubspot-connect  {
+  width: 150px;
+  margin-bottom: 15px;
+}
+.fas.fa-globe-europe {
+  color: white;
+  font-size: 55px;
+  margin-bottom: 25px;
+}
+.hubspot-hands,
+.icon-message {
+  width: 60px;
+  margin-bottom: 15px;
+}
+.growth-us {
+  width: 150px;
+  margin-bottom: 35px;
+}
+#first-cell,
+#second-cell,
+#third-cell {
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+#fourth-cell {
+  border-bottom: 2px solid white;
+}
+#first2-cell,
+#second2-cell,
+#third2-cell {
+  border-right: 2px solid white;
+}
+.quinto-quadrante {
+  height:1000px;
+  width: 50%;
+  margin:100px auto;
+}
+.text-up-left {
+  width: 30%;
+  height: 100%;
+  float: left;
+
+}
+.logo-up-right {
+  width: 70%;
+  height: 100%;
+  float: right;
+}
+.text-up-left:after ,
+.logo-up-right:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#fascia-top-quinto-quadrante {
+  margin: auto;
+  width: 80%;
+  height: 30%;
+}
+.h3-quinto-quadrante{
+  font-size: 60px;
+  color: rgb(45, 62, 80);
+  margin-top: 50px;
+}
+#p-quinto-quadrante {
+  font-size: 30px;
+  color: rgb(45, 62, 80);
+}
+.logo-agency {
+  width: 20%;
+  margin: 24px;
+}
+.logo-agency.classpass,
+.logo-agency.subaru {
+  margin-bottom:0;
+}
+.text-left {
+  width: 50%;
+  float: left;
+}
+.photo-right{
+  width: 50%;
+  float: right;
+  height: 600px;
+  background-image: url(../img/woman.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.text-left:after ,
+.photo-right:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.h4-quinto-quadrante {
+  font-size: 60px;
+  color: rgb(45, 62, 80);
+  margin-top: 50px;
+}
+#p-quinto-quadrante-down {
+  color: rgb(45, 62, 80);
+  margin: 50px 0;
+  font-size: 30px;
+}
+.button.get-hub-spotfree {
+  font-size: 30px;
+  padding: 30px;
+  display:inline-block;
+}
+#last-row {
+  font-size: 25px;
+  margin: 30px 0;
 }
