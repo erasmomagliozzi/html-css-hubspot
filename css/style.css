@@ -15,21 +15,21 @@ header {
    background-repeat: no-repeat;
    background-position:  100% 80%;
 }
-
-.corpo-header {
-  margin: auto;
-  width: 100%;
-    }
 .top-header {
   height: 200px;
+  width: 100%;
+  margin: auto;
+}
+.up-top-header {
   width: 50%;
   margin: auto;
-  }
-.up-top-header {
   height: 100px;
   background-color: white;
-  }
+  font-size:25px;
+}
 .down-top-header {
+  width: 50%;
+  margin: auto;
   height: 100px;
   background-color: white;
 }
@@ -61,7 +61,9 @@ a {
   padding-right: 10px;
 }
 hr {
+  margin: auto;
   width: 100%;
+  border-top: 1px solid grey;
 }
 
 .left-up-top-header ul li a:first-child {
@@ -188,7 +190,7 @@ a.get-hub-spotfree {
   height:500px;
   width: 100%;
   text-align: center;
-  }
+}
 .secondo-quadrante .parte-sinistra {
   height:500px;
   width: 20%;
