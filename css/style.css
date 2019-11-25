@@ -583,7 +583,9 @@ ul.lista-quattro li:not(:first-child):hover {
 .fab.fa-youtube:hover,
 .fab.fa-twitter:hover,
 .fab.fa-linkedin-in:hover,
-.languages li:hover {
+.languages li:hover,
+.p-legal:hover,
+.p-privacy:hover {
   color: skyblue;
   cursor: pointer;
 }
